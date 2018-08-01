@@ -87,7 +87,7 @@ int main(){
             string new_paw = modify(paw);
             u = {acc,new_paw,true};
             modify_num ++;
-        }else{
+        }else{ 
             u = {acc,paw,false};
         }
         user_vec.push_back(u);
